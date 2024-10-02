@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(229, 162, 173);
+    color: rgb(10, 10, 10);
+    font-family: "Macondo", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 10;
+}
+
+button{   
+background-color: rgb(236, 206, 211);
+color: rgb(15, 14, 14);
+font-family: "Macondo", cursive;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 65%;
+}
